@@ -33,3 +33,9 @@ def get_access_token():
             return split_cookie[1].strip()
 
     return None
+    
+# Configuration, please edit
+auth = Auth(
+    "https://2333278.propelauthtest.com",
+    "ce2621924dfe131dca0e4c04674bcb21f3eef80592330976d91236cc860c4ef3cea03d26412ead5fa818d70934955ca5"
+)

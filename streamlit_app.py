@@ -3,17 +3,17 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-from propelauth import auth
+# from propelauth import auth
 
-user = auth.get_user()
-if user is None:
-    st.error('Unauthorized')
-    st.stop()
+#user = auth.get_user()
+#if user is None:
+#    st.error('Unauthorized')
+#    st.stop()
 
-with st.sidebar:
-    st.link_button('Account', auth.get_account_url(), use_container_width=True)
+#with st.sidebar:
+#    st.link_button('Account', auth.get_account_url(), use_container_width=True)
 
-st.text("Logged in as " + user.email + " with user ID " + user.user_id)
+#st.text("Logged in as " + user.email + " with user ID " + user.user_id)
 
 """
 # Welcome to Streamlit! Boom2
